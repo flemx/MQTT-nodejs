@@ -19,5 +19,5 @@ publisher1.on('connect', ()=>{
 
 //Log the room temperature
 publisher1.on('connect', ()=>{
-    publisher2.publish(weatherTopic, 'Amsterdam')
+    publisher2.publish(roomTemp, '')
 })
