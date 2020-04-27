@@ -1,4 +1,9 @@
-/** MQTT Broker  */
+/**
+ *   MQTT Broker
+ *   @Damien_Fleminks
+ *   27 April 2020
+ */
+
 const mosca = require('mosca')
 
 const settings = {port: 3000}
